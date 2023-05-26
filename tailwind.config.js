@@ -7,7 +7,7 @@ module.exports = {
         manrope: "Manrope",
       },
       colors: {
-        purple: "#3f3cbb",
+        cardBlack: "#101010",
       },
     },
   },
