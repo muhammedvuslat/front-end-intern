@@ -1,3 +1,4 @@
+import Contact from "./components/Contact";
 import Header from "./components/Header";
 import Info from "./components/Info";
 import SuccesBar from "./components/SuccessBar";
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <Info />
       <SuccesBar />
+      <Contact />
     </div>
   );
 }

@@ -40,6 +40,7 @@ const Info = () => {
                   <div className="mt-11">
                     <h3 className="text-base font-semibold leading-7 tracking-tight text-2xl ">
                       Ester Howard
+                      {/* //todo fontları kontrol et  */}
                     </h3>
                     <p className="text-sm font-semibold leading-6  opacity-50 mt-2.5 ">
                       Founder
