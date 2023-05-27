@@ -8,8 +8,8 @@ import SmImage3 from "../assets/Sm_Image3.png";
 
 const Info = () => {
   return (
-    <div className="border-4 border-orange-600 ">
-      <div className="border-4 border-pink-400 m-8 sm:m-12 md:m-16 lg:m-24 xl:m-32">
+    <div className=" ">
+      <div className=" m-8 sm:m-12 md:m-16 lg:m-24 xl:m-32">
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-manrope">
           Who we are
         </h1>
@@ -23,11 +23,7 @@ const Info = () => {
       </div>
 
       <div className="h-[629px] w-auto flex items-center justify-center hidden sm:hidden md:flex">
-        <img
-          src={MidImage}
-          alt="mid"
-          className="  border-4 border-pink-400  "
-        />
+        <img src={MidImage} alt="mid" className="    " />
       </div>
 
       <div className="relative h-[240px] w-auto flex items-center justify-center sm:block md:hidden bg-amber-400 ">
@@ -43,14 +39,14 @@ const Info = () => {
       </div>
 
       <div>
-        <div className="bg-white py-24 sm:py-32  border-4 p-16">
+        <div className="bg-white py-24 sm:py-32   p-16">
           <div className=" ">
             <div className="  text-center mb-28 w-full  ">
               <h2 className="text-3xl font-bold  text-gray-900 sm:text-4xl ">
                 Meet the heroes behind the magic
               </h2>
             </div>
-            <ul className="grid  gap-x-20 gap-y-20 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 sm:gap-y-8 xl:col-span-3 lg:flex xl:flex  font-manrope text-blackCustom border-yellow-400 border-4 justify-around">
+            <ul className="grid  gap-x-20 gap-y-20 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 sm:gap-y-8 xl:col-span-3 lg:flex xl:flex  font-manrope text-blackCustom justify-around">
               <li className=" h-auto w-auto p-2 shadow-[1px_1px_6px_0px_#4a5568] max-w-md flex items-center justify-center sm:w-[260px] sm:h-[336] lg:w-[324px] lg:h-[440px] xl:w-[433px] xl:h-[560px] ">
                 <div className="items-center gap-x-2">
                   <img

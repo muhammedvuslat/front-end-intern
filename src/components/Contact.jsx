@@ -1,15 +1,15 @@
 import ContactPerson from "../assets/Contact.png";
 const Contact = () => {
   return (
-    <div className="flex flex-col lg:flex-col items-center xl:flex-row justify-between border-4 border-blue-400 py-12 px-6 sm:py-48 sm:px-24">
-      <div className="border-4 border-red-400 w-full sm:w-full md:w-full lg:w-[751px] lg:min-w-[751px] flex-row  xl:min-w-[751px] h-auto text-blackCustom font-manrope ">
-        <div className="text-3xl sm:text-5xl mb-8 ml-8">
+    <div className="flex flex-col lg:flex-col items-center xl:flex-row justify-between  py-12 px-6 sm:py-48 sm:px-24">
+      <div className=" w-full sm:w-full md:w-full lg:w-[751px] lg:min-w-[751px] flex-row  xl:min-w-[751px] h-auto text-blackCustom font-manrope ">
+        <div className="text-3xl sm:text-5xl mb-8 mr-12 ">
           <p className="text-right">
             We'd love to hear <span className="block">from you</span>
           </p>
         </div>
         <div>
-          <form className="px-8 py-8 sm:px-12 sm:py-12 border-4 border-yellow-400">
+          <form className="px-8 py-8 sm:px-12 sm:py-12  ">
             <div className="mb-4 flex flex-col space-y-4 ">
               <input
                 className="appearance-none border border-black w-full py-3 px-4 text-blackCustom placeholder-blackCustom leading-tight focus:outline-none focus:shadow-outline md:h-24"
@@ -48,7 +48,7 @@ const Contact = () => {
           </form>
         </div>
       </div>
-      <div className="border-4 border-red-400 w-full  h-[600px] md:w-[622px] md:h-[891px] bg-orange-100 p-4   ">
+      <div className=" w-full  h-[600px] md:w-[622px] md:h-[891px] bg-orange-100 p-4   ">
         <img
           className="w-full h-full object-contain"
           src={ContactPerson}
