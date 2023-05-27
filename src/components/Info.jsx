@@ -7,7 +7,7 @@ const Info = () => {
   return (
     <div className="border-4 border-orange-600 ">
       <div className="border-4 border-pink-400 m-32">
-        //todo Div için ekranların ayarlamalarını yap
+        {/* //todo Div için ekranların ayarlamalarını yap */}
         <h1 className="text-5xl font-manrope">Who we are</h1>
         <p className="text-3xl font-manrope">
           We love what we do and create partnerships with our clients to ensure
@@ -28,9 +28,9 @@ const Info = () => {
                 Meet the heroes behind the magic
               </h2>
             </div>
-            <ul className="grid  gap-x-20 gap-y-20 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 sm:gap-y-8 xl:col-span-3 lg:flex xl:flex  font-manrope text-cardBlack border-yellow-400 border-4 justify-around">
-              <li className=" h-auto w-auto p-2 shadow-[1px_1px_6px_0px_#4a5568] max-w-md flex items-center justify-center lg:w-[324px] lg:h-[420px] xl:w-[433px] xl:h-[560px] ">
-                //todo li elementlerinin genişliğini md ekranlarda kontrol et
+            <ul className="grid  gap-x-20 gap-y-20 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 sm:gap-y-8 xl:col-span-3 lg:flex xl:flex  font-manrope text-blackCustom border-yellow-400 border-4 justify-around">
+              <li className=" h-auto w-auto p-2 shadow-[1px_1px_6px_0px_#4a5568] max-w-md flex items-center justify-center sm:w-[260px] sm:h-[336] lg:w-[324px] lg:h-[440px] xl:w-[433px] xl:h-[560px] ">
+                {/* //todo li elementlerinin genişliğini md ekranlarda kontrol et */}
                 <div className="items-center gap-x-2">
                   <img
                     className="  sm:w-52 sm:h-52 md:w-64 md:h-64 lg:w-80 lg:h-80 xl:w-[376px] xl:h-[394px]  "
@@ -47,7 +47,7 @@ const Info = () => {
                   </div>
                 </div>
               </li>
-              <li className="p-2 shadow-[1px_1px_6px_0px_#4a5568] max-w-md flex items-center justify-center ">
+              <li className="h-auto w-auto p-2 shadow-[1px_1px_6px_0px_#4a5568] max-w-md flex items-center justify-center sm:w-[260px] sm:h-[336] lg:w-[324px] lg:h-[440px] xl:w-[433px] xl:h-[560px]">
                 <div className=" items-center gap-x-6">
                   <img
                     className=" sm:w-52 sm:h-52 md:w-64 md:h-64 lg:w-80 lg:h-80 xl:w-[376px] xl:h-[394px] "
@@ -64,7 +64,7 @@ const Info = () => {
                   </div>
                 </div>
               </li>
-              <li className="p-2 shadow-[1px_1px_6px_0px_#4a5568] max-w-md flex items-center justify-center ">
+              <li className="h-auto w-auto p-2 shadow-[1px_1px_6px_0px_#4a5568] max-w-md flex items-center justify-center sm:w-[260px] sm:h-[336] lg:w-[324px] lg:h-[440px] xl:w-[433px] xl:h-[560px]">
                 <div className=" items-center gap-x-6">
                   <img
                     className=" sm:w-52 sm:h-52 md:w-64 md:h-64 lg:w-80 lg:h-80 xl:w-[376px] xl:h-[394px] "
