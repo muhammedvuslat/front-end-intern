@@ -2,6 +2,13 @@ import ContactPerson from "../assets/Contact.png";
 const Contact = () => {
   return (
     <div className="flex flex-col lg:flex-col items-center xl:flex-row justify-between  py-12 px-6 sm:py-48 sm:px-24">
+      <div className=" w-full  h-[600px] md:w-[622px] md:h-[891px] bg-orange-100 p-4   ">
+        <img
+          className="w-full h-full object-contain"
+          src={ContactPerson}
+          alt="contact_person"
+        />
+      </div>
       <div className=" w-full sm:w-full md:w-full lg:w-[751px] lg:min-w-[751px] flex-row  xl:min-w-[751px] h-auto text-blackCustom font-manrope ">
         <div className="text-3xl sm:text-5xl mb-8 mr-12 ">
           <p className="text-right">
@@ -47,13 +54,6 @@ const Contact = () => {
             </div>
           </form>
         </div>
-      </div>
-      <div className=" w-full  h-[600px] md:w-[622px] md:h-[891px] bg-orange-100 p-4   ">
-        <img
-          className="w-full h-full object-contain"
-          src={ContactPerson}
-          alt="contact_person"
-        />
       </div>
     </div>
   );
