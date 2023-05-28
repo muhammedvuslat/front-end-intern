@@ -8,16 +8,16 @@ import handImage6 from "../assets/image_6.png";
 
 const Header = () => {
   return (
-    <div className="bg-yellow-400 h-screen flex flex-col justify-center items-center">
+    <div className="bg-yellow-400  h-screen flex flex-col justify-center items-center font-manrope">
       <div className="relative  max-w-screen-xl mx-auto overflow-hidden">
         <img src={bgShape} alt="bg" className="w-full" />
       </div>
       <div className="absolute text-center top-1/3 left-0 right-0 p-10 justify-center flex ">
-        <h1 className="font-bold font-manrope text-3xl md:text-5xl lg:text-8xl  max-w-5xl">
+        <h1 className="font-bold text-3xl md:text-5xl lg:text-8xl  max-w-5xl">
           Let's create something great together
         </h1>
       </div>
-      <div className=" absolute flex bottom-0  justify-center ">
+      <div className=" absolute flex  bottom-0  justify-center ">
         <div className="flex">
           <img
             src={handImage1}

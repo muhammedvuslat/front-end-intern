@@ -8,12 +8,10 @@ import SmImage3 from "../assets/Sm_Image3.png";
 
 const Info = () => {
   return (
-    <div className=" ">
+    <div className="font-manrope ">
       <div className=" m-8 sm:m-12 md:m-16 lg:m-24 xl:m-32">
-        <h1 className="text-3xl sm:text-4xl md:text-5xl font-manrope">
-          Who we are
-        </h1>
-        <p className="text-xl sm:text-2xl md:text-3xl font-manrope">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl ">Who we are</h1>
+        <p className="text-xl sm:text-2xl md:text-3xl ">
           We love what we do and create partnerships with our clients to ensure
           their digital transformation is positioned for long-term success. We
           believe that the human dimensions essential to start any successful
@@ -46,7 +44,7 @@ const Info = () => {
                 Meet the heroes behind the magic
               </h2>
             </div>
-            <ul className="grid  gap-x-20 gap-y-20 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 sm:gap-y-8 xl:col-span-3 lg:flex xl:flex  font-manrope text-blackCustom justify-around">
+            <ul className="grid  gap-x-20 gap-y-20 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 sm:gap-y-8 xl:col-span-3 lg:flex xl:flex text-blackCustom justify-around">
               <li className=" h-auto w-auto p-2 shadow-[1px_1px_6px_0px_#4a5568] max-w-md flex items-center justify-center sm:w-[260px] sm:h-[336] lg:w-[324px] lg:h-[440px] xl:w-[433px] xl:h-[560px] ">
                 <div className="items-center gap-x-2">
                   <img
