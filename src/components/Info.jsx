@@ -25,14 +25,14 @@ const Info = () => {
       </div>
 
       <div className="relative h-[240px] w-auto flex items-center justify-center sm:block md:hidden bg-amber-400 ">
-        <div className="absolute top-[1px] left-4 ">
-          <img src={SmImage1} alt="sm1" className=" w-auto h-60  " />
+        <div className="absolute top-[40px] left-4 ">
+          <img src={SmImage1} alt="sm1" className=" w-auto h-[200px]  " />
         </div>
         <div className="absolute bottom-[-2px] left-4 ">
-          <img src={SmImage2} alt="sm2" className="   w-auto h-[250px]  " />
+          <img src={SmImage2} alt="sm2" className="   w-auto h-[200px]  " />
         </div>
         <div className="absolute bottom-[-2px] left-4 ">
-          <img src={SmImage3} alt="sm3" className="   w-auto h-[250px]  " />
+          <img src={SmImage3} alt="sm3" className="   w-auto h-[200px]  " />
         </div>
       </div>
 
@@ -55,7 +55,6 @@ const Info = () => {
                   <div className="mt-11">
                     <h3 className="font-semibold leading-7 tracking-tight text-2xl ">
                       Ester Howard
-                      {/* //todo fontları kontrol et  */}
                     </h3>
                     <p className="text-sm font-semibold leading-6  opacity-50 mt-2.5 ">
                       Founder
