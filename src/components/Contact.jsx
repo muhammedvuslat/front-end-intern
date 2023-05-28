@@ -1,4 +1,4 @@
-import ContactPerson from "../assets/Contact.png";
+import ContactPerson from "../assets/images/Contact.png";
 const Contact = () => {
   return (
     <div className="flex flex-col lg:flex-col items-center xl:flex-row justify-between  py-12 px-6 sm:py-48 sm:px-24 font-manrope">

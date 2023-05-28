@@ -1,10 +1,10 @@
-import MidImage from "../assets/Mid_Image.png";
-import person1 from "../assets/ester.png";
-import person2 from "../assets/cody.png";
-import person3 from "../assets/brooklyn.png";
-import SmImage1 from "../assets/Sm_Image1.png";
-import SmImage2 from "../assets/Sm_Image2.png";
-import SmImage3 from "../assets/Sm_Image3.png";
+import MidImage from "../assets/images/Mid_Image.png";
+import Person1 from "../assets/images/ester.png";
+import Person2 from "../assets/images/cody.png";
+import Person3 from "../assets/images/brooklyn.png";
+import SmImage1 from "../assets/images/Sm_Image1.png";
+import SmImage2 from "../assets/images/Sm_Image2.png";
+import SmImage3 from "../assets/images/Sm_Image3.png";
 
 const Info = () => {
   return (
@@ -49,7 +49,7 @@ const Info = () => {
                 <div className="items-center gap-x-2">
                   <img
                     className="  sm:w-52 sm:h-52 md:w-64 md:h-64 lg:w-80 lg:h-80 xl:w-[376px] xl:h-[394px]  "
-                    src={person1}
+                    src={Person1}
                     alt=""
                   />
                   <div className="mt-11">
@@ -66,7 +66,7 @@ const Info = () => {
                 <div className=" items-center gap-x-6">
                   <img
                     className=" sm:w-52 sm:h-52 md:w-64 md:h-64 lg:w-80 lg:h-80 xl:w-[376px] xl:h-[394px] "
-                    src={person2}
+                    src={Person2}
                     alt=""
                   />
                   <div className="mt-11">
@@ -83,7 +83,7 @@ const Info = () => {
                 <div className=" items-center gap-x-6">
                   <img
                     className=" sm:w-52 sm:h-52 md:w-64 md:h-64 lg:w-80 lg:h-80 xl:w-[376px] xl:h-[394px] "
-                    src={person3}
+                    src={Person3}
                     alt=""
                   />
                   <div className="mt-11">
