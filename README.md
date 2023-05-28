@@ -6,6 +6,9 @@ This project has been completed as a task in the Piton Technology internship rec
 
 <a href="https://front-end-intern-muhammedvuslat.vercel.app/" target="blank"><img align="center" src="https://cdn3.iconfinder.com/data/icons/black-white-social-media/32/logo_social_media_www-256.png" alt="m-vuslat-cevik" height="30" width="30" /></a> https://front-end-intern-muhammedvuslat.vercel.app/
 
+## About
+This project has been developed based on the Figma design provided by the company during the internship hiring process. The task was implemented using the React library and styled with the Tailwind CSS framework.
+
 ### Project directory structure
 
 ```
@@ -48,4 +51,8 @@ This project has been completed as a task in the Piton Technology internship rec
 │  └─ index.js
 └─ tailwind.config.js
 ```
+## For PC Screen View
+![Ekran Kaydı 2023-05-28 13 40 06 (1)](https://github.com/muhammedvuslat/front-end-intern/assets/105074236/dd9f3a42-8dc5-4c02-b112-e426f1519fd3)
 
+## For Phone Screen View
+![RPReplay_Final1685270464 (1)](https://github.com/muhammedvuslat/front-end-intern/assets/105074236/a4bcb2f6-a3f7-49ff-ba46-6a8a808feec1)
